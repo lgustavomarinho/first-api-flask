@@ -1,0 +1,23 @@
+Flask==2.3.0
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.2
+Flask-Cors==3.0.10
+Werkzeug==2.3.0
+
+# Comandos para rodar o Flask shell
+    # Criar variaveis de ambiente para o Flask
+    # cd caminho/do/projeto
+    # export FLASK_APP=main.py
+
+# criar o banco de dados
+    # conectar ao flask shell
+    # db.create_all()
+    # db.session.commit()
+
+# Criar um usuário
+    # user = User(username="admin", password="123")
+    # user
+    # db.session.add(user)
+    # db.session.commit()
+
+# echo 'export PATH="/home/marinho/.ebcli-virtual-env/executables:$PATH"' >> ~/.bash_profile && source ~/.bash_profile
