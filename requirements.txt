@@ -19,5 +19,3 @@ Werkzeug==2.3.0
     # user
     # db.session.add(user)
     # db.session.commit()
-
-# echo 'export PATH="/home/marinho/.ebcli-virtual-env/executables:$PATH"' >> ~/.bash_profile && source ~/.bash_profile
