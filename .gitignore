@@ -4,5 +4,5 @@
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 .venv
-__pycache__/
-ecommerce.db
+./__pycache__/
+./instance/ecommerce.db
